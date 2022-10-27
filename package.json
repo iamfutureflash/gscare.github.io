@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "stop": "node bar.js"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
