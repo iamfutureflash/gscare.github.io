@@ -1,17 +1,16 @@
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 50,
-    mousewheel: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-  var swiper2 = new Swiper(".mySwiper2", {
-    direction: "vertical",
-    spaceBetween: 50,
-    // mousewheel: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+  spaceBetween: 0,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
