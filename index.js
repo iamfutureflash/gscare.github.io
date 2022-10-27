@@ -1,10 +1,11 @@
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 0,
   centeredSlides: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  autoPlay: false,
+  // autoplay: {
+  //   delay: 6000,
+  //   disableOnInteraction: true,
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
